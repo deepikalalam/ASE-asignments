@@ -2,13 +2,13 @@
         $scope.facepredlist = new Array();
          $scope.mostRecentReview;
         $scope.getpredictions = function () {
-            var imageEntered = document.getElementById(txt_placeName).value;
+            var imgEntered = document.getElementById(txt_placeName).value;
             var searchQuery = document.getElementById(txt_searchFilter).value;
-            if (imageEntered != null && imageEntered !=  ) {
+            if (imgEntered != null && imgEntered !=  ) {
 
-                This is the API that gives the list of venues based on the place and search query.
+                This is th API that gives the list of venus based on the place and sarch query.
                 var handler = $http.get(httpsapius.faceplusplus.comv2detectiondetect +
-                    url= + imageEntered + &api_secret=SmkJ7gqmLxWzVzkXYupi6oibRSzGkYO1 + &api_key=6eceb51192b3a8080790ca394e76351a + &attribute=glass,pose,gender,age,race,smiling);
+                    url= + imgEntered + &api_secret=SmkJ7gqmLxWzVzkXYupi6oibRSzGkYO1 + &api_key=6eceb51192b3a8080790ca394e76351a + &attribute=glass,pose,gender,age,race,smiling);
                 var object = JSON.parse(data);
                 document.getElementById(demo).innerHTML = object.img_height;
                 handler.success(function (data) {
