@@ -17,5 +17,5 @@ https://github.com/deepikalalam/ASE-asignments/wiki/Lab4
 wiki of lab 5:
 https://github.com/deepikalalam/ASE-asignments/wiki/Lab5
 
-wiki of lab 5:
+wiki of lab 6:
 https://github.com/deepikalalam/ASE-asignments/wiki/Lab6
