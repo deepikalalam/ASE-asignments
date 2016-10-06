@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent" tools:context="edu.umkc.sc9v9.asea3mapimage.WelcomeActivity">
+
+
+    <TextView
+        android:text="Hello user"
+        android:layout_width="wrap_content"
+        android:id="@+id/tvName"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="300dp"
+        android:id="@+id/ivProfPic"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/p2" />
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="edu.umkc.sc9v9.asea3mapimage.WelcomeActivity" />
+
+</LinearLayout>
