@@ -19,3 +19,11 @@ https://github.com/deepikalalam/ASE-asignments/wiki/Lab5
 
 wiki of lab 6:
 https://github.com/deepikalalam/ASE-asignments/wiki/Lab6
+
+
+wiki of lab 7:
+https://github.com/deepikalalam/ASE-asignments/wiki/Lab7
+
+
+wiki of lab 8:
+https://github.com/deepikalalam/ASE-asignments/wiki/Lab8
